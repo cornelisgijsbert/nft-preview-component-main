@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Rubik&display=swap');
+
+/*
+    font-family: 'Outfit', sans-serif;
+
+    font-family: 'Rubik', sans-serif;
+*/
+
+main.card {
+    font-family: 'Outfit', sans-serif;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: .9357rem;
+}
+
+@media screen and (min-width: 768px) {
+    main.card p:first-of-type {
+        font-size: 1.125rem;
+    }
+}

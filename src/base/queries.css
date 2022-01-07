@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) {
+    main.card {
+        row-gap: 1.5rem;
+        padding: 1.5rem;
+        width: 21.875rem;
+        height: 37.25rem;
+    }
+    main.card div.figure {
+        height: 18.875rem;
+    }
+    main.card h2 {
+        margin-top: 0;
+    }
+    main.card p:first-of-type {
+        margin-top: -.5em;
+    }
+    main.card p:nth-child(7) {
+        margin-top: -.5rem;
+    }
+}
